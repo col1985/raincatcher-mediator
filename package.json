@@ -1,7 +1,7 @@
 {
   "name": "fh-wfm-mediator",
   "version": "0.3.4",
-  "description": "An implementation of the mediator pattern for use with WFM",
+  "description": "A fork of orginal module to aide debugging",
   "main": "lib/angular/mediator-ng.js",
   "repository": "https://github.com/feedhenry-raincatcher/raincatcher-mediator",
   "scripts": {
@@ -14,9 +14,9 @@
   "author": "Brian Leathem",
   "license": "MIT",
   "dependencies": {
+    "bluebird": "^3.4.7",
     "lodash": "^4.7.0",
-    "mediator-js": "^0.9.9",
-    "bluebird": "^3.4.7"
+    "rhmap-stats": "1.0.5-alpha"
   },
   "devDependencies": {
     "chai": "^3.5.0",
