@@ -3,4 +3,8 @@ var stats = require("rhmap-stats").init({
   port: process.env.MONITORING_PORT
 });
 
-module.exports = stats;
+module.exports.stats = stats;
+
+module.exports.log = function(msg, object) {
+  console.log(new Date(), msg + ': ', object);
+};
