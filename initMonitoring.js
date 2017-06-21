@@ -6,5 +6,5 @@ var stats = require("rhmap-stats").init({
 module.exports.stats = stats;
 
 module.exports.log = function(msg, object) {
-  console.log(new Date(), msg + ': ', object);
+  console.log(new Date(), msg + ':', object);
 };
